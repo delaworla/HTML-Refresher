@@ -266,7 +266,8 @@
               required
             />
           </p>
-          <!-- <p>
+          <!-- 
+            <p>
             <label for="coffee">Favourite Coffee:</label>
             <select name="coffee" id="coffee" multiple size="5">
               <optgroup label="Coffees">
@@ -282,6 +283,18 @@
               <option value="other">Other</option>
             </select>
           </p> -->
+          <p>
+            <label for="coffee">Favorite Coffee:</label>
+            <input type="text" name="coffee" id="coffee" list="coffee-list" />
+            <datalist id="coffee-list">
+              <option value="coffee"></option>
+              <option value="latte"></option>
+              <option value="espresso"></option>
+              <option value="cortado"></option>
+              <option value="americano"></option>
+              <option value="other"></option>
+            </datalist>
+          </p>
         </form>
       </article>
     </main>
