@@ -209,81 +209,83 @@
         <p>I'd really like to here from you!</p>
 
         <form action="https://httpbin.org/get" method="get">
-          <p>
-            <label for="firstName">First Name:</label>
-            <input
-              type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="Jane"
-              autocomplete="on"
-              required
-              autofocus
-            />
-          </p>
-          <p>
-            <label for="lastName">Last Name:</label>
-            <input
-              type="text"
-              name="lastName"
-              id="lastName"
-              placeholder="Doe"
-              autocomplete="on"
-              required
-            />
-          </p>
-          <p>
-            <label for="password">Password:</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Your secret"
-              required
-            />
-          </p>
-          <p>
-            <label for="phone">Phone Number:</label>
-            <input
-              type="tel"
-              name="phone"
-              id="phone"
-              placeholder="555555555"
-              pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
-              required
-            />
-          </p>
-          <p>
-            <label for="decade">Favourite Decade:</label>
-            <input
-              type="number"
-              name="decade"
-              id="decade"
-              value="1980"
-              min="1950"
-              max="2020"
-              step="10"
-              required
-            />
-          </p>
+          <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+              <label for="firstName">First Name:</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="Jane"
+                autocomplete="on"
+                required
+                autofocus
+              />
+            </p>
+            <p>
+              <label for="lastName">Last Name:</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Doe"
+                autocomplete="on"
+                required
+              />
+            </p>
+            <p>
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Your secret"
+                required
+              />
+            </p>
+            <p>
+              <label for="phone">Phone Number:</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="555555555"
+                pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                required
+              />
+            </p>
+            <p>
+              <label for="decade">Favourite Decade:</label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                value="1980"
+                min="1950"
+                max="2020"
+                step="10"
+                required
+              />
+            </p>
 
-          <p>
-            <label for="coffee">Favourite Coffee:</label>
-            <select name="coffee" id="coffee" multiple size="5">
-              <optgroup label="Coffees">
-                <option value="regular coffee">Regular Coffee</option>
-                <option value="iced coffee">Iced coffee</option>
-              </optgroup>
-              <optgroup label="Espresso Drinks">
-                <option value="latte" selected>Latte</option>
-                <option value="cappucccino">Cappucccino</option>
-                <option value="cortado">Cortado</option>
-                <option value="americano">Americano</option>
-              </optgroup>
-              <option value="other">Other</option>
-            </select>
-          </p>
-          <!-- <p>
+            <p>
+              <label for="coffee">Favourite Coffee:</label>
+              <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffees">
+                  <option value="regular coffee">Regular Coffee</option>
+                  <option value="iced coffee">Iced coffee</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                  <option value="latte" selected>Latte</option>
+                  <option value="cappucccino">Cappucccino</option>
+                  <option value="cortado">Cortado</option>
+                  <option value="americano">Americano</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+            </p>
+            <!-- <p>
             <label for="coffee">Favorite Coffee:</label>
             <input type="text" name="coffee" id="coffee" list="coffee-list" />
             <datalist id="coffee-list">
@@ -295,6 +297,7 @@
               <option value="other"></option>
             </datalist>
           </p> -->
+          </fieldset>
         </form>
       </article>
     </main>
