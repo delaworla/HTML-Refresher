@@ -19,3 +19,5 @@ Directions
 4. All images are provided in the img folder.
 
 5. If you need to find taco emojis, try Emojipedia.
+
+6. A favicon is already included. You'll need to add it in the head section of each page.
