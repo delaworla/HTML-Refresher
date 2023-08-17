@@ -14,5 +14,6 @@ Directions
 
 2. You should name your files: index.html, hours.html, and contact.html
 
-3.
+3. There is minimal CSS already available in css/styles.css. You need to link that file to your HTML files.
+
 
