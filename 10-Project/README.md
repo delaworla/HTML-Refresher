@@ -17,3 +17,5 @@ Directions
 3. There is minimal CSS already available in css/styles.css. You need to link that file to your HTML files.
 
 4. All images are provided in the img folder.
+
+5. If you need to find taco emojis, try Emojipedia.
